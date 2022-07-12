@@ -7,18 +7,12 @@ body{
 }
 
 nav {
-    display: inline-block;
     text-align: center;
-    width: 100%;
-    transition: color 1s ease-in 100ms;
 }
 
-nav { 
-    color: blue;
-}
 
 nav a:hover {
-    color: orange;
+    background-color: orange;
 }
 /** header styles **/
 .header{
@@ -46,7 +40,7 @@ nav a:hover {
     position: relative; /* Makes elements display above overlay. */
 }
 h1{
-    color: #f6e2b9;
+    color: #f7f4ca;
     font-family: 'Lobster', sans-serif;
     font-size: 80px;
     margin: 0px;
@@ -57,7 +51,7 @@ h1{
 h2{
     font-family: 'Alice' , sans-serif;
     font-size: 26px;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 h3{
@@ -136,7 +130,7 @@ li{
     margin-top: 27px;
 }
 .ingredients{
-    background-color: orange;
+    background-color: #F7C46F;
     padding: 30px;
     width: 50%;
 }
@@ -148,38 +142,39 @@ li{
     list-style-type: circle;
 }
 .ingredients li{
-    color: #ffffff;
+    color: #000000;
     line-height: 18px;
     margin-top: 30px;
     text-align: left;
+    text-decoration: bold;
 }
 .nutrition{
-    background-color: gold;
+    background-color: #bb9351;
     padding: 30px;
     width: 50%;
 }
 .nutrition li{
     margin-top: 20px;
-    color: midnightblue;
+    color: #000000;
 }
 .nutrition h2{
-    color:midnightblue;
+    color:#000000;
 }
 .nutrition h3{
-    color:midnightblue;
+    color:#000000;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 22px;
+    font-weight: 700;
     margin: 0px;
     text-transform: uppercase;
 
 }
 .nutrition p{
-    font-size: 24px;
+    font-size: 18px;
     font-family: 'Poppins',sans-serif;
-    font-weight: 700;
+    font-weight: 350;
     margin: 0px;
-    color: midnightblue;
+    color: #000000;
 }
 
 body{
@@ -195,7 +190,7 @@ body{
 .searchTerm {
     float: left;
     width: 100%;
-    border: 3px solid midnightblue;
+    border: 3px solid #4F77BB;
     padding: 5px;
     height: 36px;
     border-radius: 5px;
@@ -204,7 +199,7 @@ body{
 }
 
 .searchTerm:focus{
-    color: midnightblue;
+    color: #4F77BB;
 }
 
 .searchButton {
@@ -213,13 +208,17 @@ body{
     top: 8px;
     width: auto;
     height: 36px;
-    border: 1px solid midnightblue;
-    background: midnightblue;
+    border: 1px solid #4F77BB;
+    background: #4F77BB;
     text-align: center;
-    color: #fff;
+    color: #000;
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
+}
+
+.searchButton:hover {
+    background-color: #F7C46F;
 }
 
 .wrap{
@@ -229,4 +228,13 @@ body{
     top: 10;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+footer {
+    background-color: #f8cb3e !important;
+    border: white;
+}
+
+footer p {
+    text-align: center;
 }
