@@ -1,0 +1,31 @@
+body {
+    background-color: #bb934f;
+    z-index: -1;
+    width: 100%;
+}
+
+.recipes {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.omlette .picture {
+    float: right;
+
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+}
+.cheesecake .picture {
+    float: right;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+
+}
+.waffle .picture {
+    float: right;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+
+}
